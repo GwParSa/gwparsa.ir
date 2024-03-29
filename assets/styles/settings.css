@@ -1,0 +1,130 @@
+@import url(fontsetup.css);
+@import url(main.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(projects.css);
+
+
+:root{
+    --primary-bg: #000000;
+    --primary-font-clr: #FFFFFF;
+    --secondary-font-clr: #8C8C8C;
+    --green-clr: #23A55A;
+
+    --topic-font: 500 25px/33px IntelMono;
+    --normal-font: 400 17px/33px IntelMono;
+}
+* {
+    font-size: 100%;
+    font-family: IntelMono;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  white-space: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: var(--primary-bg);
+  overflow-x: hidden;
+  max-width: 2560px;
+}
