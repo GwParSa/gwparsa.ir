@@ -4,19 +4,18 @@
 @import url(contact.css);
 @import url(projects.css);
 
+:root {
+  --primary-bg: #000000;
+  --primary-font-clr: #ffffff;
+  --secondary-font-clr: #8c8c8c;
+  --green-clr: #23a55a;
 
-:root{
-    --primary-bg: #000000;
-    --primary-font-clr: #FFFFFF;
-    --secondary-font-clr: #8C8C8C;
-    --green-clr: #23A55A;
-
-    --topic-font: 500 25px/33px IntelMono;
-    --normal-font: 400 17px/33px IntelMono;
+  --topic-font: 500 25px/33px IntelMono;
+  --normal-font: 400 17px/33px IntelMono;
 }
 * {
-    font-size: 100%;
-    font-family: IntelMono;
+  font-size: 100%;
+  font-family: IntelMono;
 }
 html,
 body,
