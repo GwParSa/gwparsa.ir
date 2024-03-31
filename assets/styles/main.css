@@ -1,11 +1,15 @@
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 nav {
   font: var(--normal-font);
   display: flex;
   gap: 120px;
-  position: absolute;
-  left: 50%;
-  bottom: 150px;
-  transform: translateX(-50%);
+  justify-content: center;
+  align-items: center;
 }
 .nav-items {
   display: flex;
@@ -27,10 +31,9 @@ nav {
   gap: 10px;
 }
 
-.content {
-  display: block;
+.block-container {
   text-align: center;
-  margin-top: 150px;
+  margin-bottom: 170px;
 }
 .main-img {
   width: 170px;
@@ -45,19 +48,25 @@ nav {
   font: var(--normal-font);
 }
 .status {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
   margin-top: 30px;
 }
 .discord-text {
-  color: var(--secondary-font-clr);
+  color: var(--green-clr);
   font: var(--normal-font);
 }
-.color-status {
-  width: 10px;
-  height: 10px;
-  background-color: var(--green-clr);
-  border-radius: 10px;
+
+@media (min-width: 0) and (max-width: 1000px) {
+  nav {
+    display: block;
+    padding: 50px 0;
+    background-color: var(--primary-bg);
+  }
+  .nav-items {
+    display: grid;
+    row-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .block-container {
+    margin-bottom: 70px;
+  }
 }

@@ -126,4 +126,6 @@ body {
   background-color: var(--primary-bg);
   overflow-x: hidden;
   max-width: 2560px;
+  width: 100vw;
+  height: 100vh;
 }
